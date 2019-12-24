@@ -1,0 +1,27 @@
+
+{
+  "name": "Vue + Flask Template",
+  "description": "Full stack application with Vue and Flask",
+  "repository": "https://github.com/banjoanton/vue-flask-template.git",
+  "keywords": ["flask", "vue"],
+  "env": {
+    "FLASK_ENV": {
+      "description": "Flask Enviroment",
+      "value": "production"
+    },
+    "SECRET": {
+      "description": "Flask Secret Key",
+      "value": "YourKeyHere"
+    }
+   },
+  "addons": [
+   ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
